@@ -1,0 +1,66 @@
+.navigation-bar {
+  background-color: #fafafa;
+  width: 300px;
+  padding: 0;
+  margin: auto auto auto 0;
+  height: 100%;
+  position: fixed;
+  color: #202020;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.navigation-bar:hover .view-project {
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.navigation-bar ul {
+  margin: 2em auto 2em 3em;
+  padding: 0;
+}
+
+.navigation-bar-group li {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  line-height: 30px;
+  border-radius: 7px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navigation-bar ul li:hover {
+  background-color: #eeeeee;
+}
+
+#project-list {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  font-size: 15px;
+  justify-content: space-between;
+  margin: auto auto auto calc(3em + 00px);
+  padding: 0;
+}
+
+.project-list-title {
+  display: flex;
+  align-items: center;
+}
+
+.project-list-title-project {
+  padding-left: 8px;
+}
+
+.view-project {
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.navigation-bar-project-group {
+  transition: 3s;
+}
