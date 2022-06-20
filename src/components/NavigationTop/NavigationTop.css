@@ -11,16 +11,25 @@
 .navigation-top-left {
   display: flex;
   align-items: center;
-  background-color: blue;
   height: 100%;
   margin-left: 42px;
   justify-content: flex-start;
 }
+
+.navigation-top-left > div {
+  display: flex;
+  padding: 6px;
+}
+
 .navigation-top-right {
   display: flex;
   align-items: center;
-  background-color: green;
   height: 100%;
   margin-right: 42px;
   justify-content: flex-start;
+}
+
+.navigation-top-right > div {
+  display: flex;
+  padding: 6px;
 }

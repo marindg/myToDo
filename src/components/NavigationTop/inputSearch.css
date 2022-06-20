@@ -1,0 +1,28 @@
+.quick_find {
+  display: flex;
+
+  background-color: #e27065;
+  border-radius: 3px;
+  color: white;
+  width: 100%;
+}
+
+.quick_find:hover {
+  cursor: text;
+  background-color: white;
+}
+
+.quick_find:hover .search_input::placeholder {
+  cursor: text;
+  color: rgba(128, 128, 128, 1);
+}
+
+.search_input {
+  background-color: #e27065;
+  border: 0;
+  border-radius: 3px;
+}
+
+.search_input::placeholder {
+  color: white;
+}
